@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Ojuju:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: beige;
+    width: 100%;
+}
+
+img{
+width: 80px;
+}
+h1{
+font-size: 100px;
+color: rgb(108, 228, 114);
+font-family: "Kode Mono", monospace;
+}
+h2{
+    font-size: 80px;
+    color: rgb(1, 8, 63);
+    font-family: "Caveat", cursive;
+}
+p{
+font-size: 20px;
+color: black;
+font-family: "Playfair Display", serif;
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(196, 146, 86);
+}
+#carouselExampleFade{
+width: 50%;
+display: flex;
+padding: 10px 0 10px 0;
+margin: 0 0 0 200px;
+position: relative;
+left: 15%;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(236, 189, 61);
+    image-orientation: flip;
+    border-image: round;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.caja img{
+    width: 300px;
+}
+.table{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    image-orientation: flip;
+}
+
+.video{
+    position: relative;
+    left: 25%;
+}
+
+.imgSomos{
+    width: auto;
+    margin-left: 50%;
+}
+
+.f{
+    width: 50px;
+    height: 50px;
+    flex-direction: row; 
+    justify-content: space-between;
+    left: 50%;
+}
+.tablecontac{
+    position: relative;
+    justify-content: space-between
+}
